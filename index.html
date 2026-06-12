@@ -182,7 +182,21 @@
     padding: 11px; transform: rotate(1.4deg); position: relative;
     box-shadow: 22px 26px 0 var(--accent-soft), 0 30px 60px rgba(20, 16, 8, 0.22);
   }
+  /* The hero phone shows the app's dark appearance; the page stays light.
+     These are the app's dark tokens from ios/Owed/Lib/Theme.swift. */
   .phone-screen {
+    --bg: #0C0C0A;
+    --card: #161613;
+    --line: #2A2A23;
+    --ink: #F4F4EC;
+    --ink-body: #C9C9BD;
+    --ink-mute: #8E8E80;
+    --ink-faint: #5E5E53;
+    --accent: #7D95FF;
+    --on-accent: #0B1020;
+    --alert: #FF6A45;
+    --accent-soft: rgba(125, 149, 255, 0.15);
+    --rule-tint: rgba(42, 42, 35, 0.5);
     background: var(--bg);
     background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 27px, var(--rule-tint) 27px, var(--rule-tint) 28px);
     border-radius: 38px; overflow: hidden; position: relative; height: 660px;
