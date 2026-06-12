@@ -197,6 +197,8 @@
     --alert: #FF6A45;
     --accent-soft: rgba(125, 149, 255, 0.15);
     --rule-tint: rgba(42, 42, 35, 0.5);
+    /* re-resolve inherited text color inside the dark scope */
+    color: var(--ink);
     background: var(--bg);
     background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 27px, var(--rule-tint) 27px, var(--rule-tint) 28px);
     border-radius: 38px; overflow: hidden; position: relative; height: 660px;
